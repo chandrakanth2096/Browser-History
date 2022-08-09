@@ -1,0 +1,81 @@
+.item {
+  margin-bottom: 40px;
+}
+.item-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.names-logo {
+  display: flex;
+  align-items: center;
+}
+.logo-url {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.site-names {
+  margin-left: 15px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #475569;
+  margin: 0;
+  font-weight: 600;
+}
+
+.url {
+  margin: 0;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #6697ff;
+  font-weight: 600;
+}
+
+.time {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #64748b;
+  font-weight: 700;
+}
+.time2 {
+  display: none;
+}
+.del-btn {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.del-icon {
+  width: 27px;
+}
+
+@media screen and (min-width: 768px) {
+  .item-details {
+    justify-content: space-between;
+  }
+  .site-names {
+    display: flex;
+  }
+  .time {
+    display: none;
+  }
+  .time2 {
+    display: block;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 700;
+    color: #64748b;
+  }
+  .logo-url {
+    margin-left: 30px;
+  }
+  .url {
+    margin-left: 15px;
+  }
+}
